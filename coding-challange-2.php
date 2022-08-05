@@ -1,6 +1,6 @@
 <?php
-// Weekly coding challenge
-// Take an array of integers that are out of order and find the range of the smallest window that must be sorted for the entire array to be sorted.  eg. The array [3,7,5,6,9] needs the range (1,3) to be sorted to make the whole array sorted (using a zero based index for the range). (edited) 
+// Take an array of integers that are out of order and find the range of the smallest window that must be sorted for the entire array to be sorted.  
+//eg. The array [3,7,5,6,9] needs the range (1,3) to be sorted to make the whole array sorted (using a zero based index for the range).
 function findRangeToSort1($array){
     $arraysort = $array;
     sort($arraysort);

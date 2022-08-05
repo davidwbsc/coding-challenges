@@ -1,5 +1,6 @@
 <?php
-//Coding challenge for the week - Given an array of integers return a new array so that each element at index i is the product of all the other numbers in the array except the number at index i.  So for the array [1 ,2 , 3 , 4, 5] the output would be [120, 60, 40, 30, 24] . If the input was [1, 2, 3] then the output would be [6, 3, 2]
+//Given an array of integers return a new array so that each element at index i is the product of all the other numbers in the array except the number at index i.  
+//So for the array [1 ,2 , 3 , 4, 5] the output would be [120, 60, 40, 30, 24] . If the input was [1, 2, 3] then the output would be [6, 3, 2]
 
 function arrayProduct1 ($array) {
 	$newArray = [];
