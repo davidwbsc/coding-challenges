@@ -5,7 +5,6 @@
 function smallerElemsAfter($array){
 	$length = count($array);
 	$outputArray = [];
-	$highest = 0;
 	for($i = 0; $i < $length; $i++){
 		$smallerElemCount = 0;
 		for($j = $i; $j < $length; $j++){
@@ -17,4 +16,4 @@ function smallerElemsAfter($array){
 	}
 	return $outputArray;
 }
-var_dump(smallerElemsAfter([10, 4, 1, 1, 1]));
+var_dump(smallerElemsAfter([3, 4, 9, 6, 1]));
