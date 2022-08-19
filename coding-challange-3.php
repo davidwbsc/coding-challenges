@@ -18,3 +18,16 @@ function highestSum($array){
 	return $highest;
 }
 var_dump(highestSum([34, 50, 42, -14, -5, 86]));
+
+//Kadane's Algorithm
+
+// fn max_subarray_sum2(arr:&[i32]) -> i32{
+//     let mut current_max = 0;
+//     let mut max_ending_here = 0;
+//     for x in arr {
+//         max_ending_here = max(*x, max_ending_here + x);
+//         current_max = max(current_max, max_ending_here);
+//     }
+
+//     current_max
+// }
