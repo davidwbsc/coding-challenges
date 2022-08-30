@@ -1,6 +1,6 @@
 <?php
 // With a given word w and a string s find the indexes in s that are the start of the word w. 
-// For example with w='ab' and s='abxaba' the result would be an array [0,3,4].  
+// For example with w='ab' and s='abxaba' the result would be an array [0,3,5].  
 // Try it without using the built in PHP functions to find the string position
 
 function findIndexes($w, $s){
